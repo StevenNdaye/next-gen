@@ -1,0 +1,35 @@
+@-ms-viewport {
+    width: device-width;
+}
+
+.navbar-top {
+    position: relative;
+    z-index: 99;
+    display: block;
+}
+
+.global-nav {
+    overflow: hidden;
+    min-height: 3em;
+    background-image: url(../images/header_bg.png);
+    background-color: #2a2a2a;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+}
+
+.global-nav ul.title-area {
+    position: relative;
+    float: left;
+    height: 100%;
+    list-style: none;
+}
+
+.global-nav ul.logo-area {
+    float: right;
+    list-style: none;
+}
+
+footer {
+    color: #999999;
+    background: #2a2a2a;
+}
